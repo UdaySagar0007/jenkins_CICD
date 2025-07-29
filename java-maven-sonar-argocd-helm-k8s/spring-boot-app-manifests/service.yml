@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: spring-boot-app-service
 spec:
-  replicas: 2
   type: NodePort
   ports:
   - name: http
